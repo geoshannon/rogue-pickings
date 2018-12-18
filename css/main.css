@@ -1,0 +1,106 @@
+/***** BASE STYLES *****/
+body {
+  font-family:'Montserrat', sans-serif;
+  color: #2b2b2b;
+}
+
+/***** GRID *****/
+.full-width{
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width{
+  width: 600px;
+  float: left;
+}
+.third-width{
+  width: 340px;
+  float: left;
+  height: 225px;
+}
+/***** Header *****/
+
+header h1{
+  padding:25px 35px;
+}
+header h1 span{
+  color:#77a466;
+}
+header ul{
+  list-style: none;
+  word-spacing: 20px;
+}
+header a{
+  text-decoration:none;
+  font-weight: 700;
+  font-size:14px;
+  color:#77a466;
+  text-transform: uppercase;
+}
+header nav {
+    float: right;
+    padding: 46px 25px;
+}
+header nav ul li{
+    display: inline-block;
+}
+/***** img *****/
+#image .full-width{
+  padding: 20px 0;
+  height: auto;
+}
+#image img#greenbean {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+/*****Welcome *****/
+#welcome .full-width{
+  padding: 20px 0;
+}
+#welcome h1{
+  Font-weight: bold;
+  text-transform:uppercase;
+  font-size: 18px;
+  color:#77a466;
+}
+
+#welcome p{
+  font-size: 16px;
+  line-height:25px;
+}
+/***** Info *****/
+#info .third-width{
+  border: 1px solid #dedbdc;
+  padding: 20px 25px 20px 25px;
+}
+#info h1{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform:uppercase;
+}
+
+#info ul {
+  font-size: 16px;
+  color: #77a466;
+  line-height: 50px;
+  list-style: none;
+  padding: 0;
+}
+#info p{
+  font-size: 16px;
+  line-height: 22px;
+
+}
+/***** Footer *****/
+#footer h1{
+  font-size: 16px;
+  text-transform: uppercase;
+  clear: both;
+  text-align:center;
+  padding: 20px 0;
+}
+#footer h1 span {
+  color: #77a466;
+  font-family: 'Pacifico', cursive;
+  text-transform:lowercase;
+}
